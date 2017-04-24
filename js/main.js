@@ -31,7 +31,6 @@ $( document ).ready(function() {
  
  
     $('.view-details').on('click', function(event){
-        console.log(event);
         var targetElement = event.target;
         var container = targetElement.parentElement.parentElement;
     //  Toggle visibility of all the elements within that parent with the class `details`. 
