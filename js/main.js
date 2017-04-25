@@ -50,7 +50,6 @@ $( document ).ready(function() {
  // When a button is clicked determine what the user is voting for ("great" or "greatest").
   
     $('.vote').on('click', function(event) {
-      console.log(event);
       if ($(this).attr('data-vote')==='great'){
           voteCounts.great++;
           voteCounts.total++;
